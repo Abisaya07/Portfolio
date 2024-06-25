@@ -1,0 +1,98 @@
+#duabt {
+    background-color: #060417;
+    padding: 80px 80px;
+  }
+  
+  .duabt-header {
+    text-align: center;
+    margin-bottom: 40px;
+
+  }
+  
+  .duabt-header h5 {
+    font-size: 1.5rem;
+    color: #a247db;
+    margin-bottom: 10px;
+  }
+  
+  .duabt-header h2 {
+    font-size: 2.5rem;
+    color: #fbf9f9;
+  }
+  
+  .duabt__container {
+    display:flex;
+    justify-content: space-between;
+    margin-left: 60px;
+    padding:40px;
+  }
+  
+  .duabt__me-image img {
+     border-radius: 80px solid rgb(237, 236, 236); 
+    width: 300px;
+   
+  }
+  
+  .duabt__cards {
+    display:flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+     max-width: 800px; 
+
+     gap: 0.5cm;
+    
+    
+  }
+  
+  .duabt__card {
+   width: 40%;
+   height: 200px;
+    flex: 1;
+    padding: 20px;
+   
+    background: #130f2a;
+    border-radius: 0.65rem;
+    border: 1.5px solid #6751b9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    
+  }
+  
+  .duabt__card:hover {
+    transform: scale(1.05);
+  }
+  
+  .duabt__icon {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    color:#7e0aeb;
+  }
+  
+  .duabt__content {
+    flex: 1;
+    margin-left: 40px;
+    font-size:medium;
+    color: #ffffff;
+    
+  }
+  
+  .duabt__content p {
+    color: #555;
+    line-height: 1.6;
+    color:rgb(251, 243, 243);
+  }
+  
+  .btn-primary {
+    display: inline-block;
+    
+    background-color:#5f3af4;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-primary:hover {
+    background-color:#7e0aeb;
+  }

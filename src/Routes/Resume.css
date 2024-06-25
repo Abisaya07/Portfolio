@@ -1,0 +1,189 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+} */
+
+body {
+    /* background-color: #130f2a; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container25 {
+    position: relative;
+    width: 100%;
+    max-width: 100px;
+    min-height: 100px;
+    margin: 50px;
+    background-color: #fff;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba(0, 0, 0, 0);
+}
+
+.container25 .leftside25 {
+    position: relative;
+    background-color: #003147;
+    padding: 40px;
+}
+
+.container25 .rightside25 {
+    position: relative;
+    background-color: #fff;
+    padding: 40px;
+}
+
+.profiletext25 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.profiletext25 .imbx25 {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.profiletext25 .imbx25 img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.profiletext25 h2 {
+    color: #fff;
+    font-size: 1.5cm;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4cm;
+}
+
+.profiletext25 span {
+    font-size: 0.8cm;
+    font-weight: 300;
+}
+
+.title25 {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.conatctinfo25 ul {
+    position: relative;
+}
+
+.conatctinfo25 ul li {
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+    text-align: center;
+    justify-content: center;
+}
+
+.conatctinfo25 ul li .icon {
+    font-size: 18px;
+    color: #03a9f4;
+    text-align: center;
+    justify-content: center;
+}
+
+.conatctinfo25 ul li span {
+    color: #fff;
+    font-weight: 300;
+    text-align: center;
+    justify-content: center;
+}
+
+.conatctinfo25.education25 li {
+    margin-bottom: 15px;
+}
+
+.conatctinfo25.education25 h5 {
+    color: #03a9f4;
+    font-weight: 500;
+}
+
+.conatctinfo25.education25 h4:nth-child(2) {
+    color: #fff;
+    font-weight: 500;
+}
+
+.conatctinfo25.education25 h4 {
+    color: #fff;
+    font-weight: 300;
+}
+
+.about25 {
+    margin-bottom: 50px;
+}
+.gg25 p{
+    color: black;
+}
+.about25:last-child {
+    margin-bottom: 0;
+}
+
+.title225 {
+    color: #003147;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.text25 h3 {
+    color: rgb(23, 4, 4);
+}
+
+.about25 .box25 {
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0;
+}
+
+.about25 .box25 .yearcompany25 {
+    min-width: 150px;
+}
+
+.about25 .box25 .yearcompany25 h5 {
+    text-transform: uppercase;
+    color: #848c90;
+    font-weight: 600;
+}
+
+.about25 .box25 .text25 h4 {
+    text-transform: uppercase;
+    color: #2a7da2;
+    font-size: 16px;
+}
+
+.skills25 .box25 {
+    position: relative;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    justify-content: center;
+    align-items: center;
+    color: #02070a;
+}
+.box125 h4{
+    color: #000000;
+}

@@ -1,0 +1,130 @@
+.contact {
+    padding: 152px 0;
+    text-align: center;
+    background-color:#130f2a;
+}
+
+.section-title {
+    font-size: 2.5rem;
+    color: #e6f7f3;
+}
+
+.section-title span {
+    color: #9a83eb;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+    margin-top: 40px;
+}
+
+.contact-info {
+    max-width: 400px;
+    text-align: left;
+}
+
+.contact-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: #9a83eb;
+}
+
+.contact-description {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #b5aaaa;
+}
+
+.info-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.info-icon {
+    color: #9a83eb;
+    font-size: 1.5rem;
+    margin-right: 10px;
+}
+
+.info-title {
+    font-size: 0.9rem;
+    color: #e6eee9;
+}
+
+.info-desc {
+    font-size: 1rem;
+    font-weight: 500;
+    color:grey;
+}
+
+.contact-socials {
+    margin-top: 20px;
+}
+
+.contact-social-link {
+    display: inline-block;
+    background-color:#130f2a;
+    color: #fff;
+    width: 40px;
+    height: 30px;
+    border-radius: 0%;
+    text-align: center;
+    align-items: center;
+    line-height: 40px; /* Set line-height to match the height of the element */
+    vertical-align: middle; /* Align the content vertically */
+    margin-right: 10px;
+    transition: background-color 0.3s ease;
+}
+
+ 
+
+.contact-social-link:hover {
+    background-color:#9a83eb;
+}
+
+.contact-form {
+     border: 2px solid #9a83eb;
+    max-width: 400px;
+    padding: 40px;
+    background-color:#130f2a ;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    
+}
+
+.form-control {
+    border: 2px solid #f5f0f0;
+    background-color: #f5f5f5;
+    color: #333;
+    padding: 12px 24px;
+    border-radius: 30px;
+    font-size: 1rem;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.form-control-textarea {
+    resize: none;
+    height: 160px;
+}
+
+
+@keyframes pulse {
+    0% {
+      background-color: #0a411b; /* Red */
+      transform: scale(1);
+    }
+    100% {
+      background-color: #2eaae9; /* Green */
+      transform: scale(1.1);
+    }
+   
+  }
+.pulse-animation {
+    animation: pulse 2s infinite;
+  }
